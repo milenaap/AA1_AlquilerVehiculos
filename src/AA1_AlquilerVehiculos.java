@@ -46,20 +46,20 @@ public class AA1_AlquilerVehiculos {
 
         //Utilizando los métodos toString, muestra por pantalla los datos de todos los objetos que has creado.
         // TODO
-        System.out.println("El Coche tiene: " + coche1.toString());
-        System.out.println("La Moto tiene: " + moto1.toString());
-        System.out.println("El Camion tiene: " +  camion1.toString());
+        System.out.println("El Coche 1 contiene: " + coche1.toString());
+        System.out.println("La Moto 1 contiene: " + moto1.toString());
+        System.out.println("El Camión 1 contiene: " +  camion1.toString());
         System.out.println("El Cliente 1 es: " + cliente1.toString());
         System.out.println("El Cliente 2 es: " + cliente2.toString());
-        System.out.println("El Contrato de Alquiler del Coche contiene: " + contratoAlquilerCoche.toString());
-        System.out.println("El Contrato de Alquiler de la Moto contiene: " + contratoAlquilerMoto.toString());
-        System.out.println("El Contrato de Alquiler del Camión contiene: " + contratoAlquilerCamion.toString());
-        System.out.println("Duracion del contrato de alquiler del Coche son: " +contratoAlquilerCoche.nDias() +" días");
-        System.out.println("Duración del contrato de alquiler de la Moto son: " +contratoAlquilerMoto.nDias() + " días");
-        System.out.println("Duración del contrato de alquiler del Camión son: " +contratoAlquilerCamion.nDias() + " dias");
-        System.out.println("El coste total del contrato de alquiler del Coche es: " + contratoAlquilerCoche.costeTotal() + " €");
-        System.out.println("El coste total del contrato de alquiler de la Moto es: " + contratoAlquilerMoto.costeTotal() + " €");
-        System.out.println("El coste total del contrato de alquiler del Camión es: " + contratoAlquilerCamion.costeTotal() + " €");
+        System.out.println("El Contrato de Alquiler del Coche 1 contiene: " + contratoAlquilerCoche.toString());
+        System.out.println("El Contrato de Alquiler de la Moto 1 contiene: " + contratoAlquilerMoto.toString());
+        System.out.println("El Contrato de Alquiler del Camión 1 contiene: " + contratoAlquilerCamion.toString());
+        System.out.println("Duracion del contrato de alquiler del Coche 1 son: " +contratoAlquilerCoche.nDias() +" días");
+        System.out.println("Duración del contrato de alquiler de la Moto 1 son: " +contratoAlquilerMoto.nDias() + " días");
+        System.out.println("Duración del contrato de alquiler del Camión 1 son: " +contratoAlquilerCamion.nDias() + " dias");
+        System.out.println("El coste total del contrato de alquiler del Coche 1 es: " + contratoAlquilerCoche.costeTotal() + " €");
+        System.out.println("El coste total del contrato de alquiler de la Moto 1 es: " + contratoAlquilerMoto.costeTotal() + " €");
+        System.out.println("El coste total del contrato de alquiler del Camión 1 es: " + contratoAlquilerCamion.costeTotal() + " €");
 
     }
 }
